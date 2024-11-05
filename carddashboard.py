@@ -22,7 +22,7 @@ st.set_page_config(page_title="Dashboard",page_icon="📊",layout="wide")
 st.header("六都信用卡消費分類 |  依照年收所得區分 ")
 
 #data = pd.read_csv('各年收入族群持卡人於六都消費樣態.csv')
-data = pd.read_csv('data/six_city_income.csv')
+data = pd.read_csv('各年收入族群持卡人於六都消費樣態.CSV')
 
 data.columns = data.columns.str.strip()
 data['年月'] = pd.to_datetime(data['年月'], format='%Y%m', errors='coerce')
