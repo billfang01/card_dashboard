@@ -10,8 +10,8 @@ import pandas as pd
 import plotly.graph_objs as go
 from numerize.numerize import numerize
 import time
-#from streamlit_extras.metric_cards import style_metric_cards
-#st.set_option('deprecation.showPyplotGlobalUse', False)
+from streamlit_extras.metric_cards import style_metric_cards
+st.set_option('deprecation.showPyplotGlobalUse', False)
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']
